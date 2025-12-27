@@ -60,3 +60,8 @@ This prompt set is considered **stable**.
 New prompts should be added only if:
 - they introduce a new category, or
 - they are required by a real use case
+
+---
+
+- abstract_lab_01.mp4 : Gen-4 Turbo (Image→Video), 5s, blue/white lab intro
+
