@@ -1,16 +1,16 @@
 # AI Video Lab
 
-This repository is an experimental lab for **AI-generated video**  
-used in **education, technical presentations, and research materials**.
+This repository documents an **evaluation and design study** of  
+**AI-generated video** for use in **education, technical presentations, and research materials**.
 
 The focus is **not on visual spectacle**, but on:
 
 - reproducible prompt design
 - stable and inspectable workflows
-- avoiding technical and conceptual inaccuracies
+- identifying and avoiding technical or conceptual inaccuracies
 
-AI-generated video here is treated as a **supporting visual layer**,  
-never as a primary source of information.
+AI-generated video is treated strictly as a **supporting visual layer**,  
+never as a primary carrier of information.
 
 ---
 
@@ -18,11 +18,25 @@ never as a primary source of information.
 
 This repository exists to:
 
-- explore how AI-generated video can be **safely integrated** into educational contexts
-- document prompts and workflows that **preserve technical correctness**
+- evaluate whether AI-generated video can be **safely integrated** into educational and technical contexts
+- document prompt patterns and workflows that **do not compromise correctness**
 - explicitly define what *should* and *should not* be animated
 
-The emphasis is on **risk reduction**, not expressive freedom.
+The emphasis is on **risk identification and reduction**,  
+not expressive freedom or creative exploration.
+
+---
+
+## Evaluation Outcome
+
+After hands-on experimentation, the following conclusions were reached:
+
+- AI-generated video is **not suitable as a core medium** for technical explanation
+- Output variability and tool-driven constraints limit reproducibility
+- Credit-based generation models discourage iterative verification
+
+As a result, AI video is considered **out-of-scope for primary instructional content**,  
+and its use is restricted to optional, non-informational contexts.
 
 ---
 
@@ -31,10 +45,10 @@ The emphasis is on **risk reduction**, not expressive freedom.
 - Videos are short (typically **5–15 seconds**)
 - No equations, no numbers, and no critical symbols in motion
 - No readable text or data-bearing elements
-- AI video is used only for:
+- AI video may be used only for:
   - introductions
   - atmosphere setting
-  - conceptual or abstract background
+  - abstract or conceptual background
 
 If visual motion risks misinterpretation, the video must be discarded.
 
@@ -44,14 +58,13 @@ If visual motion risks misinterpretation, the video must be discarded.
 
 ```
 ai-video-lab/
-├─ prompts/ # Reproducible prompt patterns
+├─ prompts/ # Reproducible prompt patterns (evaluated)
 ├─ workflows/ # Generation and post-processing workflows
-├─ samples/ # Minimal input/output examples
-└─ notes/ # Pitfalls, failures, and quality checks
+├─ samples/ # Minimal reference outputs
+└─ notes/ # Pitfalls, failures, and evaluation notes
 ```
 
-
-Each directory is designed to support **reproducibility and review**,  
+Each directory exists to support **reviewability and traceability**,  
 not artistic iteration.
 
 ---
@@ -62,21 +75,21 @@ not artistic iteration.
 - Research presentation openings
 - Conceptual framing before static diagrams or equations
 
-AI video is intended to **precede** accurate content,  
+AI video is intended to **precede accurate content**,  
 never to replace it.
 
 ---
 
-## Non-Goals
+## Explicit Non-Goals
 
-This repository explicitly does **not** aim to support:
+This repository does **not** aim to support:
 
 - full-length or narrative videos
 - animated equations or precision-dependent schematics
-- demonstrations where numerical accuracy is implied
+- demonstrations implying numerical or physical accuracy
 - tool-specific tutorials without generalizable methodology
 
-If a use case cannot be generalized, it does not belong here.
+If a use case cannot be generalized or reviewed, it does not belong here.
 
 ---
 
@@ -84,7 +97,7 @@ If a use case cannot be generalized, it does not belong here.
 
 AI-generated video is treated as **visual context**, not as truth.
 
-All accuracy must originate from:
+All correctness must originate from:
 - static figures
 - diagrams
 - equations
@@ -93,8 +106,6 @@ All accuracy must originate from:
 When in doubt, **do not animate**.
 
 This conservative stance is intentional and central to the design of this lab.
-
-
 
 
 
