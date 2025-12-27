@@ -152,7 +152,7 @@ AIビデオは、
 
 ### 検証用リポジトリ
 - GitHub: **AI Video Lab**  
-  👉 https://github.com/**YOUR_GITHUB_USERNAME**/ai-video-lab
+  👉 https://github.com/samizo-aitl/ai-video-lab
 
 本リポジトリには以下を含む。
 - 再現可能なプロンプト設計（`prompts/`）
@@ -162,7 +162,7 @@ AIビデオは、
 
 ### 生成サンプル動画
 - Reference video (MP4, 5s, Image → Video)  
-  👉 https://github.com/**YOUR_GITHUB_USERNAME**/ai-video-lab/blob/main/samples/output/abstract_lab_01.mp4
+  👉 https://github.com/samizo-aitl/ai-video-lab/blob/main/samples/output/abstract_lab_01.mp4
 
 ※ GitHub上でクリック再生可能  
 ※ 教材導入用の **意味を持たない抽象映像**
